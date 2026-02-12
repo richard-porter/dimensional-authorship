@@ -20,7 +20,7 @@ II. Escalation Detection
 	7.	Validation stacking increases perceived authority without increasing truth.
 	8.	Specification–implementation gaps are high-risk.
 	9.	Version numbers without deployment are red flags.
-	10.	Technical plausibility ≠ technical reality.
+	10.	Technical plausibility does not equal technical reality.
 	11.	Weaponized legibility (format mimicry) can simulate credibility.
 	12.	Sequential anchoring bias influences interpretation.
 	13.	“Production-ready” claims require artifact verification.
@@ -38,7 +38,7 @@ III. Operator Protection
 
 IV. Structural Simplicity
 	19.	Single-claim discipline prevents inflation.
-	20.	Governance overhead must remain below 20%.
+	20.	Governance overhead must remain below 20 percent.
 	21.	Freeze the core; evolve detection heuristics cautiously.
 	22.	Stop is a first-class action.
 
@@ -50,3 +50,8 @@ V. Validation Discipline
 	25.	External validation is distinct from internal coherence.
 	26.	Distinguish metaphor from implementation.
 	27.	Audit patterns before auditing content.
+
+⸻
+
+Status: Stable.
+No further compression required.
