@@ -1,20 +1,24 @@
 # Reading Order
 
-This repository sits within a broader ecosystem of related work.
+This repository is a home base for a broader set of related artifacts.
 
-For clarity, the recommended reading sequence is:
+Recommended sequence:
 
-1. Origin Event (this repository → /origin/)
-2. Frozen Kernel (deterministic supervisory architecture)
-3. Behavioral Differentiation (this repository → /experiments/)
-4. Refusal Boundary documentation
-5. Adult Mode Safety Ledger
-6. Therapy Mode Safety Checklist
-7. AI Collaboration Field Guide
+1) Origin Event (this repo)
+   - `/origin/2026-01-05-origin-event.md`
 
-The narrative artifact (“Lefty of the Briny Deep”) should be read as experimental substrate, not as the primary argument.
+2) Governance Primitive
+   - Frozen Kernel: https://github.com/richard-porter/frozen-kernel
 
-The primary argument concerns:
-- escalation under probabilistic generation
-- governance intervention
-- dimensional authorship
+3) Behavioral Differentiation + Refusal Boundary (this repo)
+   - `/experiments/behavioral-differentiation-disc.md`
+   - `/experiments/voluntary-compliance-boundary.md`
+
+4) Domain Instrumentation
+   - Adult Mode Safety Ledger: https://github.com/richard-porter/adult-mode-safety-ledger
+   - Therapy Mode Safety Checklist: https://github.com/richard-porter/therapy-mode-safety-checklist.md
+
+5) Operational Practice
+   - AI Collaboration Field Guide: https://github.com/richard-porter/ai-collaboration-field-guide
+
+Note: the narrative artifact (“The Taller Shell”) should be treated as experimental substrate, not the primary argument.
