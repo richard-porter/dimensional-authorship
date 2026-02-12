@@ -1,5 +1,8 @@
 # dimensional-authorship
 A documented case study in human–AI narrative escalation, behavioral differentiation, and deterministic governance
+
+Primary document: see white-paper.md for the complete case study
+
 # Dimensional Authorship
 
 A documented case study in human–AI narrative escalation, behavioral differentiation, and deterministic governance.
