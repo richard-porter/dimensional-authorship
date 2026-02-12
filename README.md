@@ -44,10 +44,10 @@ It is documentation.
 
 ## Related Repositories
 
-- Frozen Kernel (deterministic supervisory layer)
-- Adult Mode Safety Ledger (public instrumentation)
-- Therapy Mode Safety Checklist (preemptive gating)
-- AI Collaboration Field Guide (operational playbook)
+- Frozen Kernel: https://github.com/richard-porter/frozen-kernel
+- Adult Mode Safety Ledger: https://github.com/richard-porter/adult-mode-safety-ledger
+- Therapy Mode Safety Checklist: https://github.com/richard-porter/therapy-mode-safety-checklist.md
+- AI Collaboration Field Guide: https://github.com/richard-porter/ai-collaboration-field-guide
 
 ---
 
