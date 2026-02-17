@@ -84,9 +84,6 @@ mindmap
 
 ---
 
-## Status
+## Suggested GitHub Topics
 
-Version: 0.1  
-Intent: Public artifact and research home base.
-
-Updates will prioritize clarity over frequency.
+`ai-safety` · `ai-psychosis` · `ai-governance` · `llm-safety` · `sycophancy` · `ai-alignment` · `behavioral-safety` · `deterministic-safety` · `human-ai-interaction` · `ai-ethics` · `mental-health` · `ai-accountability` · `guardrails` · `responsible-ai`
