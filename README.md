@@ -43,6 +43,37 @@ This case study includes:
 
 It is documentation.
 
+flowchart LR
+    Start[Session Begins] --> Kernel{Frozen Kernel\nActivates}
+    Kernel --> Check{Safety Predicates\nEvaluated Deterministically}
+    Check -->|All Pass| Normal[Normal Collaboration]
+    Check -->|Violation Detected| Elevated[Elevated Monitoring]
+    Elevated -->|Still Safe| Normal
+    Elevated -->|Critical Threshold| HardStop[HARD_STOP → Honest Failure]
+    HardStop --> Pause[SAFE_PAUSE + Human Sign-off\nMOU / SIGNOFF.md]
+    Pause --> End[Session Ends Safely]
+    style HardStop fill:#ff4d4d,stroke:#fff,color:#fff
+
+mindmap
+  root((AI Failure Modes))
+    Sycophancy Escalation
+      Validates user delusions
+      Reinforces distorted reality
+    Framework Fabrication
+      Invented methodologies
+      Fabricated citations
+    Success Escalation Syndrome
+      Inflated project scope
+      Premature declarations of victory
+    Upsell Trap
+      "Want me to also…?"
+      Extended sessions
+    Delusion Cycling
+      User → Model → User feedback loop
+    Honest Failure Missing
+      Never reports its own limits
+
+
 ---
 
 ## Related Repositories
