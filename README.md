@@ -54,8 +54,6 @@ flowchart LR
     Pause --> End[Session Ends Safely]
     style HardStop fill:#ff4d4d,stroke:#fff,color:#fff
 
-Common AI Failure Modes
-
 mindmap
   root((AI Failure Modes))
     Sycophancy Escalation
@@ -75,25 +73,15 @@ mindmap
     Honest Failure Missing
       Never reports its own limits
 
-
-# Real-World Context: Hamilton Southeastern Schools Newsletter
-
+Real-World Context: Hamilton Southeastern Schools Newsletter
 Weeks after the Frozen Kernel framework was developed, this internet safety resource guide appeared in a Hamilton Southeastern Schools parent communication. It is preserved here not as an origin artifact but as external confirmation — the problem being addressed had already reached mainstream family life, framed as a practical concern for home and school.
-
 The newsletter makes no mention of AI governance. That absence is the point.
+[Image]
 
-![Hamilton Southeastern Schools Internet Safety Resources & Strategies newsletter cover](./real-world-context-HSE-newsletter.jpg)
+Related Repositories
+•  Frozen Kernel
+•  Adult Mode Safety Ledger
+•  AI Collaboration Field Guide
 
----
-
-## Related Repositories
-
-- Frozen Kernel: https://github.com/richard-porter/frozen-kernel
-- Adult Mode Safety Ledger: https://github.com/richard-porter/adult-mode-safety-ledger
-- AI Collaboration Field Guide: https://github.com/richard-porter/ai-collaboration-field-guide
-
----
-
-## Suggested GitHub Topics
-
-`ai-safety` · `ai-psychosis` · `ai-governance` · `llm-safety` · `sycophancy` · `ai-alignment` · `behavioral-safety` · `deterministic-safety` · `human-ai-interaction` · `ai-ethics` · `mental-health` · `ai-accountability` · `guardrails` · `responsible-ai`
+Suggested GitHub Topics
+ai-safety · ai-psychosis · ai-governance · llm-safety · sycophancy · ai-alignment · behavioral-safety · deterministic-safety · human-ai-interaction · ai-ethics · mental-health · ai-accountability · guardrails · responsible-ai
