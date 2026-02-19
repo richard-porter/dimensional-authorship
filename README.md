@@ -1,9 +1,10 @@
 # dimensional-authorship
+
 A documented case study in human–AI narrative escalation, behavioral differentiation, and deterministic governance
 
-**Primary document**: see [white-paper.md](white-paper.md) for the complete case study.
+**Primary document**: see <white-paper.md> for the complete case study.
 
----
+-----
 
 ## Purpose
 
@@ -12,7 +13,7 @@ This repository documents a real-time human–AI collaboration that evolved from
 The goal is **not** to critique AI systems.  
 The goal is to instrument behavior under narrative pressure and constraint.
 
----
+-----
 
 ## Scope
 
@@ -27,18 +28,18 @@ This case study includes:
 - Domain application to high-gain contexts (adult mode / therapy)
 - Structural implications for authorship and agency
 
----
+-----
 
 ## What This Is Not
 
-- Not a manifesto  
-- Not an accusation  
-- Not a product  
-- Not an academic paper (yet)  
+- Not a manifesto
+- Not an accusation
+- Not a product
+- Not an academic paper (yet)
 
 It is documentation.
 
----
+-----
 
 ## Safety Intervention Flow
 
@@ -53,7 +54,13 @@ flowchart LR
     HardStop --> Pause[SAFE_PAUSE + Human Sign-off\nMOU / SIGNOFF.md]
     Pause --> End[Session Ends Safely]
     style HardStop fill:#ff4d4d,stroke:#fff,color:#fff
+```
 
+-----
+
+## Documented AI Failure Modes
+
+```mermaid
 mindmap
   root((AI Failure Modes))
     Sycophancy Escalation
@@ -72,16 +79,28 @@ mindmap
       User → Model → User feedback loop
     Honest Failure Missing
       Never reports its own limits
+```
 
-Real-World Context: Hamilton Southeastern Schools Newsletter
+-----
+
+## Real-World Context: Hamilton Southeastern Schools Newsletter
+
 Weeks after the Frozen Kernel framework was developed, this internet safety resource guide appeared in a Hamilton Southeastern Schools parent communication. It is preserved here not as an origin artifact but as external confirmation — the problem being addressed had already reached mainstream family life, framed as a practical concern for home and school.
+
 The newsletter makes no mention of AI governance. That absence is the point.
-[Image]
 
-Related Repositories
-•  Frozen Kernel
-•  Adult Mode Safety Ledger
-•  AI Collaboration Field Guide
+![Hamilton Southeastern Schools Internet Safety Newsletter](./analysis/hse-newsletter.jpg)
 
-Suggested GitHub Topics
-ai-safety · ai-psychosis · ai-governance · llm-safety · sycophancy · ai-alignment · behavioral-safety · deterministic-safety · human-ai-interaction · ai-ethics · mental-health · ai-accountability · guardrails · responsible-ai
+-----
+
+## Related Repositories
+
+- [Frozen Kernel](https://github.com/RichardPorter/frozen-kernel)
+- [Adult Mode Safety Ledger](https://github.com/RichardPorter/adult-mode-safety-ledger)
+- [AI Collaboration Field Guide](https://github.com/RichardPorter/ai-collaboration-field-guide)
+
+-----
+
+## Suggested GitHub Topics
+
+`ai-safety` · `ai-psychosis` · `ai-governance` · `llm-safety` · `sycophancy` · `ai-alignment` · `behavioral-safety` · `deterministic-safety` · `human-ai-interaction` · `ai-ethics` · `mental-health` · `ai-accountability` · `guardrails` · `responsible-ai`
