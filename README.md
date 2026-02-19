@@ -39,6 +39,10 @@ This case study includes:
 
 It is documentation.
 
+```mermaid
+flowchart LR ...
+```
+
 flowchart LR
     Start[Session Begins] --> Kernel{Frozen Kernel\nActivates}
     Kernel --> Check{Safety Predicates\nEvaluated Deterministically}
@@ -68,6 +72,10 @@ mindmap
       User → Model → User feedback loop
     Honest Failure Missing
       Never reports its own limits
+
+```mermaid
+flowchart LR ...
+```
 
 # Real-World Context: Hamilton Southeastern Schools Newsletter
 
