@@ -54,6 +54,10 @@ flowchart LR
     Pause --> End[Session Ends Safely]
     style HardStop fill:#ff4d4d,stroke:#fff,color:#fff
 
+```mermaid
+flowchart LR ...
+```
+
 mindmap
   root((AI Failure Modes))
     Sycophancy Escalation
@@ -73,9 +77,6 @@ mindmap
     Honest Failure Missing
       Never reports its own limits
 
-```mermaid
-flowchart LR ...
-```
 
 # Real-World Context: Hamilton Southeastern Schools Newsletter
 
