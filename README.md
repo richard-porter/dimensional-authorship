@@ -1,7 +1,7 @@
 # dimensional-authorship
 A documented case study in human–AI narrative escalation, behavioral differentiation, and deterministic governance
 
-Primary document: see white-paper.md for the complete case study
+**Primary document**: see [white-paper.md](white-paper.md) for the complete case study.
 
 ---
 
@@ -9,8 +9,7 @@ Primary document: see white-paper.md for the complete case study
 
 This repository documents a real-time human–AI collaboration that evolved from creative experimentation into structured analysis.
 
-The goal is not to critique AI systems.
-
+The goal is **not** to critique AI systems.  
 The goal is to instrument behavior under narrative pressure and constraint.
 
 ---
@@ -32,17 +31,18 @@ This case study includes:
 
 ## What This Is Not
 
-- Not a manifesto
-- Not an accusation
-- Not a product
-- Not an academic paper (yet)
+- Not a manifesto  
+- Not an accusation  
+- Not a product  
+- Not an academic paper (yet)  
 
 It is documentation.
 
-```mermaid
-flowchart LR ...
-```
+---
 
+## Safety Intervention Flow
+
+```mermaid
 flowchart LR
     Start[Session Begins] --> Kernel{Frozen Kernel\nActivates}
     Kernel --> Check{Safety Predicates\nEvaluated Deterministically}
@@ -54,9 +54,7 @@ flowchart LR
     Pause --> End[Session Ends Safely]
     style HardStop fill:#ff4d4d,stroke:#fff,color:#fff
 
-```mermaid
-flowchart LR ...
-```
+Common AI Failure Modes
 
 mindmap
   root((AI Failure Modes))
