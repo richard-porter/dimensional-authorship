@@ -89,7 +89,10 @@ Weeks after the Frozen Kernel framework was developed, this internet safety reso
 
 The newsletter makes no mention of AI governance. That absence is the point.
 
+The newsletter makes no mention of AI governance. That absence is the point.
+
 ![Hamilton Southeastern Schools Internet Safety Newsletter](./analysis/hse-newsletter.jpg)
+
 
 -----
 
