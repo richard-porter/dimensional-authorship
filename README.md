@@ -102,6 +102,8 @@ The newsletter makes no mention of AI governance. That absence is the point.
 - [Adult Mode Safety Ledger](https://github.com/RichardPorter/adult-mode-safety-ledger)
 - [AI Collaboration Field Guide](https://github.com/RichardPorter/ai-collaboration-field-guide)
 
+- [therapy-mode-safety-ledger]
+(https://github.com/richard-porter/adult-mode-safety-ledger/blob/main/therapy-mode-safety-ledger.md)
 -----
 
 ## Suggested GitHub Topics
