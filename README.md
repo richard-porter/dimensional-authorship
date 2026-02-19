@@ -93,6 +93,29 @@ The newsletter makes no mention of AI governance. That absence is the point.
 
 ![Hamilton Southeastern Schools Internet Safety Newsletter](./analysis/hse-newsletter.jpg)
 
+-----
+
+## The Taller Shell Trilogy — Archive Note
+
+`the-taller-shell-compressed.gz` contains the complete manuscript files for *The Taller Shell Trilogy* — a 90,000-word marine fantasy series written through human-AI collaboration between October 2024 and February 2026.
+
+The trilogy is compressed because the full manuscript files are large. To access them:
+
+```bash
+gunzip the-taller-shell-compressed.gz
+```
+
+### What’s in the archive
+
+Three novels following a single narrative arc set in a world of tidal mythology, grief, and repair. The work is documented in detail in the `case-study-taller-shell` folder — including the origin prompt event, escalation dynamics, governance intervention, and the collaborative process that produced the final manuscripts.
+
+The trilogy is published under the pen name **Richard Porter**. All proceeds from published work support charitable organizations.
+
+### Why it’s here
+
+This is not incidental creative work. The Taller Shell Trilogy is the empirical foundation of the dimensional-authorship case study — the collaboration that motivated the Frozen Kernel governance architecture and produced the behavioral observations documented across this ecosystem.
+
+The novels exist because the research happened. The research happened because the novels were being written.
 
 -----
 
