@@ -122,7 +122,7 @@ The novels exist because the research happened. The research happened because th
 ## Related Repositories
 
 - [Frozen Kernel](https://github.com/RichardPorter/frozen-kernel)
-- [Adult Mode Safety Ledger](https://github.com/RichardPorter/adult-mode-safety-ledger)
+- [Adult Mode Safety Ledger](https://github.com/RichardPorter/safety-ledgers)
 - [AI Collaboration Field Guide](https://github.com/RichardPorter/ai-collaboration-field-guide)
 
 - [therapy-mode-safety-ledger]
