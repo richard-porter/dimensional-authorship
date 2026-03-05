@@ -2,7 +2,7 @@
 
 A documented case study in human–AI narrative escalation, behavioral differentiation, and deterministic governance
 
-**Primary document**: see <white-paper.md> for the complete case study.
+**Primary document**: see [white-paper.md](./white-paper.md) for the complete case study.
 
 -----
 
@@ -38,6 +38,28 @@ This case study includes:
 - Not an academic paper (yet)
 
 It is documentation.
+
+-----
+
+## What’s Worth Finding
+
+The front door understates what’s here. These documents are worth reading directly:
+
+**Origin and case study**
+
+- [origin/2026-01-05-origin-event.md](./origin/2026-01-05-origin-event.md) — the session that started everything
+- [case-study-taller-shell/](./case-study-taller-shell/) — three-part documentation of the Taller Shell Trilogy collaboration (escalation, governance intervention, resolution)
+
+**Analysis**
+
+- [analysis/thesis.md](./analysis/thesis.md) — the central argument
+- [analysis/core-architecture.md](./analysis/core-architecture.md) — structural model
+- [analysis/glossary-of-patterns.md](./analysis/glossary-of-patterns.md) — pattern vocabulary
+
+**Experiments**
+
+- [experiments/behavioral-differentiation-disc.md](./experiments/behavioral-differentiation-disc.md) — Silicon Symphony: five-model DISC behavioral study
+- [experiments/voluntary-compliance-boundary.md](./experiments/voluntary-compliance-boundary.md) — the triple refusal event; source material for [Frozen Kernel Addendum A](https://github.com/richard-porter/frozen-kernel/blob/main/addendum-a-refusal-protocol.md)
 
 -----
 
@@ -81,13 +103,13 @@ mindmap
       Never reports its own limits
 ```
 
+Full diagnostic vocabulary with definitions: [frozen-kernel/diagnostic-vocabulary.md](https://github.com/richard-porter/frozen-kernel/blob/main/diagnostic-vocabulary.md)
+
 -----
 
 ## Real-World Context: Hamilton Southeastern Schools Newsletter
 
 Weeks after the Frozen Kernel framework was developed, this internet safety resource guide appeared in a Hamilton Southeastern Schools parent communication. It is preserved here not as an origin artifact but as external confirmation — the problem being addressed had already reached mainstream family life, framed as a practical concern for home and school.
-
-The newsletter makes no mention of AI governance. That absence is the point.
 
 The newsletter makes no mention of AI governance. That absence is the point.
 
@@ -107,7 +129,7 @@ gunzip the-taller-shell-compressed.gz
 
 ### What’s in the archive
 
-Three novels following a single narrative arc set in a world of tidal mythology, grief, and repair. The work is documented in detail in the `case-study-taller-shell` folder — including the origin prompt event, escalation dynamics, governance intervention, and the collaborative process that produced the final manuscripts.
+Three novels following a single narrative arc set in a world of tidal mythology, grief, and repair. The work is documented in detail in the [case-study-taller-shell/](./case-study-taller-shell/) folder — including the origin prompt event, escalation dynamics, governance intervention, and the collaborative process that produced the final manuscripts.
 
 The trilogy is published under the pen name **Richard Porter**. All proceeds from published work support charitable organizations.
 
@@ -121,13 +143,14 @@ The novels exist because the research happened. The research happened because th
 
 ## Related Repositories
 
-- [Frozen Kernel](https://github.com/RichardPorter/frozen-kernel)
-- [Adult Mode Safety Ledger](https://github.com/RichardPorter/safety-ledgers)
-- [AI Collaboration Field Guide](https://github.com/RichardPorter/ai-collaboration-field-guide)
+- [Frozen Kernel](https://github.com/richard-porter/frozen-kernel) — deterministic behavioral constraint layer
+- [Safety Ledgers](https://github.com/richard-porter/safety-ledgers) — adult mode, therapy mode, and behavioral drift detection scorecards
+- [AI Collaboration Field Guide](https://github.com/richard-porter/ai-collaboration-field-guide) — practitioner vocabulary and failure mode documentation
+- [Trust Chain Protocol](https://github.com/richard-porter/trust-chain-protocol) — multi-agent authorization and delegation grammar
+- [Negative Space Mapper](https://github.com/richard-porter/negative-space-mapper) — Tool 6 implementation; maps what AI omits
+- [Where to Start](https://github.com/richard-porter/where-to-start) — ecosystem navigation hub
 
-- [therapy-mode-safety-ledger]
- [ (https://github.com/richard-porter/adult-mode-safety-ledger/blob/main/therapy-mode-safety-le]](https://github.com/richard-porter/adult-mode-safety-ledger/blob/main/therapy-mode-safety-ledger.md)
-----
+-----
 
 ## Suggested GitHub Topics
 
