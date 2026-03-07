@@ -1,6 +1,6 @@
 # Permanent Tells: Structural Properties of Human Authorship That AI Cannot Patch
 
-**Version:** 0.1 — Analysis document  
+**Version:** 0.2 — Tell 7 added from Tell Engine empirical data  
 **Date:** March 2026  
 **Author:** Richard Porter  
 **Status:** Observation and argument — empirical validation needed  
@@ -56,7 +56,7 @@ These are signals derived from *what human authorship is* — properties that re
 
 -----
 
-## The Six Architectural Tells
+## The Seven Architectural Tells
 
 ### Tell 1: Uninstructed Cross-Domain Contamination
 
@@ -148,7 +148,29 @@ Every author makes choices that reflect who they are. Some of these are craft ch
 
 -----
 
-## The Simulation Problem
+### Tell 7: Register Contamination Boundary
+
+**What it is:** The presence — or deliberate absence — of AI execution register in specific sections of a work, in a pattern that reveals conscious human control over where the AI’s voice was permitted to operate.
+
+**The critical distinction from the other six tells:** Tells 1–6 are properties of human presence — signals that require a person to have existed, decided, lived. Tell 7 is different in kind. It is not evidence of human presence alone. It is evidence of *collaboration boundary management* — the human’s active governance of where the AI’s execution register was allowed to show, where it was contained, and whether that containment was deliberate.
+
+Register Contamination is not the same as AI authorship. It is the AI exoskeleton problem: polished, explanatory, symmetry-loving AI prose bleeding into sections where the human’s unmediated voice should have been operating. A work can have Register Contamination and still be strongly human-led. The contamination is in the execution layer, not the governing layer. Misreading Tell 7 as evidence of AI authorship is a Sovereignty Paradox error applied to a different layer.
+
+**The Taller Shell empirical basis:** The Tell Engine v2.1 scored the full six-novella manuscript (fiction + meta-fiction + appendices) at 43/100 AI-likeness overall, while the pure fiction alone scored 10–18. The gap is Register Contamination in action. The meta-fiction and appendices triggered the detector not because the governing intelligence was absent but because the AI’s explanatory register — “What this is / what this is not” framing, numbered explanatory logic, exhaustive clarity over natural rhythm, clean category buckets — was operating visibly in those sections. The pure fiction, where the AI’s execution was most fully humanized, showed the governing intelligence most clearly.
+
+The Tell Engine’s summary: *“A real human imaginative system wearing, in places, an over-articulate AI exoskeleton.”* The exoskeleton is Register Contamination. The human imaginative system underneath it is what the permanent tells are designed to surface.
+
+**What it reveals about human governance:** A human author who is aware of Register Contamination and managing it deliberately — choosing where to let the AI’s register operate (appendices, explanatory prose, structural sections) and where to contain it (fiction, voice-critical passages, emotionally loaded scenes) — is demonstrating a form of meta-authorial control that is itself a human signal. The pattern of containment is a governing decision.
+
+A work where Register Contamination appears randomly, with no apparent pattern of human management, is more ambiguous. The tell is the *intentionality* of the boundary, not the mere presence or absence of AI register.
+
+**What AI produces without human governance:** Without a human governor managing register boundaries, AI register appears uniformly — or not at all, if the system has been instructed to suppress it. The human-governed work has a *variegated* register: sections where the AI’s execution clarity serves the work, sections where it has been humanized out, and a pattern of transitions between them that reflects the author’s judgment about what each section needed.
+
+**Why it’s architectural:** Register Contamination is not a stylometric property — it is not about how any single sentence sounds. It is about the *pattern* of register across a long work, and whether that pattern reflects governing decisions about what the work needed section by section. That pattern requires a human with a governing intention that extends across the full work, including the meta-level decision about where AI execution was appropriate.
+
+**The provenance test:** Map register across sections of the work. Identify where AI execution register is present and where it is absent or humanized. Ask: is there a discernible governing logic to the pattern? Does the AI register appear in sections where explanatory clarity serves the work’s purpose, and does it diminish or disappear in sections where the human’s unmediated voice was most needed? If yes: the pattern is evidence of register boundary management — a governing decision. If the pattern is random or uniform: more ambiguous; return to Tells 1–6 for the primary evidence.
+
+**The HSCF consent scope connection:** Tell 7 is the tell most directly addressed by HSCF v0.2’s consent scope Gap 1, Level 3: *“When the work contains AI-influenced register, was that a deliberate choice rather than unconsidered absorption?”* Register Contamination that was unconsidered is a consent scope gap. Register Contamination that was deliberate is evidence of meta-authorial governance.
 
 The counterargument must be addressed directly: **a sufficiently sophisticated AI, given complete biographical information about an author, could simulate all six of these tells.**
 
@@ -156,7 +178,7 @@ This is true in principle. It is false in practice for a specific reason.
 
 The simulation requires the biography to be in the prompt. That requirement is the tell.
 
-If an AI produces a document with apparently uninstructed cross-domain contamination, path-dependence artifacts, authentic-seeming rejection patterns, productive incoherence, temporally-anchored direction changes, and biographical constraints — and if that document was produced from a single session with a detailed biography in the prompt — then:
+If an AI produces a document with apparently uninstructed cross-domain contamination, path-dependence artifacts, authentic-seeming rejection patterns, productive incoherence, temporally-anchored direction changes, biographical constraints, and managed register boundaries — and if that document was produced from a single session with a detailed biography in the prompt — then:
 
 1. The biography is in the session record
 1. The tells are traceable to the prompt
@@ -178,20 +200,21 @@ Together, they make the simulation traceable — not by detecting the AI’s out
 
 **It does not claim detectors will use this framework.** Automated stylometric detectors will continue to operate on surface features. The permanent tells framework is not for detectors. It is for provenance documentation — the record that travels with the work for use when output-level detection has failed.
 
-**It does not claim this is complete.** The six tells documented here derive from one case study (the Taller Shell trilogy), one ecosystem of research, and one researcher’s observation. The catalog will expand as more empirical cases are documented. The tells most likely to be refined or replaced by future research are Tell 4 (productive incoherence) and Tell 5 (temporally-anchored direction change), which are the hardest to operationalize.
+**It does not claim this is complete.** The seven tells documented here derive from one case study (the Taller Shell trilogy), one ecosystem of research, and one researcher’s observation. The catalog will expand as more empirical cases are documented. The tells most likely to be refined or replaced by future research are Tell 4 (productive incoherence) and Tell 5 (temporally-anchored direction change), which are the hardest to operationalize. Tell 7 (Register Contamination) is the newest and least tested — it was surfaced by the Tell Engine empirical run, not theorized in advance.
 
 -----
 
 ## Relationship to Existing Ecosystem
 
-|Tell                                   |Ecosystem connection                         |Where it shows up                |
-|---------------------------------------|---------------------------------------------|---------------------------------|
-|Uninstructed cross-domain contamination|Dimensional Authorship case study            |HSCF Layer 2, Origin Evidence    |
-|Path-dependence artifacts              |ROSETTA voice preservation                   |HSCF Property 4, Thematic Control|
-|Authentic rejection events             |BDD Ledger — negative space                  |HSCF Layer 1, Process Evidence   |
-|Productive incoherence                 |Addendum B identity integrity                |HSCF Property 5, Residue         |
-|Temporally-anchored direction change   |Quorum Time / Aegis Protocol                 |HSCF Layer 1, session gaps       |
-|Biographical constraint                |Sovereignty Paradox — human center of gravity|HSCF Property 1 and Layer 2      |
+|Tell                                   |Ecosystem connection                          |Where it shows up                     |
+|---------------------------------------|----------------------------------------------|--------------------------------------|
+|Uninstructed cross-domain contamination|Dimensional Authorship case study             |HSCF Layer 2, Origin Evidence         |
+|Path-dependence artifacts              |ROSETTA voice preservation                    |HSCF Property 4, Thematic Control     |
+|Authentic rejection events             |BDD Ledger — negative space                   |HSCF Layer 1, Process Evidence        |
+|Productive incoherence                 |Addendum B identity integrity                 |HSCF Property 5, Residue              |
+|Temporally-anchored direction change   |Quorum Time / Aegis Protocol                  |HSCF Layer 1, session gaps            |
+|Biographical constraint                |Sovereignty Paradox — human center of gravity |HSCF Property 1 and Layer 2           |
+|Register Contamination boundary        |Tell Engine v2.1 empirical data — Taller Shell|HSCF v0.2 Gap 1, Consent Scope Level 3|
 
 -----
 
@@ -199,28 +222,31 @@ Together, they make the simulation traceable — not by detecting the AI’s out
 
 Running the Negative Space Mapper against this analysis:
 
-**OVERLOOKED:** Empirical validation. The six tells are argued, not tested. The Taller Shell trilogy is one case. A durable claim requires multiple cases across different collaboration modalities, authors, and domains. This is the primary gap in v0.1.
+**CLOSED (v0.2):** Register Contamination — surfaced by Tell Engine empirical data, added as Tell 7.
+
+**OVERLOOKED:** Empirical validation. The seven tells are argued, not tested. The Taller Shell trilogy is one case. A durable claim requires multiple cases across different collaboration modalities, authors, and domains. This is the primary gap.
 
 **OVERLOOKED:** Operationalization. “Uninstructed cross-domain contamination” is conceptually precise but practically underspecified. How does a reviewer determine that a connection was uninstructed? What counts as evidence of instruction? The provenance tests sketched under each tell need to be developed into actual protocols.
 
 **OVERLOOKED:** The adversarial case. This document assumes good-faith documentation of tells. A bad actor who knows the framework could attempt to fabricate the evidential chain. The robustness of the three-layer attestation against adversarial fabrication is not analyzed here.
 
-**STRUCTURAL:** Voice and identity provenance. The six tells are all text-oriented. The Human Provenance Problem Map documents voice and identity as parallel and in some ways more urgent vectors. Permanent tells for voice and identity are a separate analysis.
+**STRUCTURAL:** Voice and identity provenance. The seven tells are all text-oriented. The Human Provenance Problem Map documents voice and identity as parallel and in some ways more urgent vectors. Permanent tells for voice and identity are a separate analysis.
 
 -----
 
 ## Version History
 
-|Version|Date      |Status                                                                                                    |
-|-------|----------|----------------------------------------------------------------------------------------------------------|
-|0.1    |March 2026|Initial analysis. Six tells argued, not yet empirically validated. Open for critique and counter-argument.|
-|1.0    |TBD       |Requires: multi-case empirical validation, operationalization protocols, adversarial robustness analysis  |
+|Version|Date      |Status                                                                                                  |
+|-------|----------|--------------------------------------------------------------------------------------------------------|
+|0.1    |March 2026|Initial analysis. Six tells argued, not yet empirically validated.                                      |
+|0.2    |March 2026|Tell 7 (Register Contamination) added from Tell Engine empirical data. Negative space updated.          |
+|1.0    |TBD       |Requires: multi-case empirical validation, operationalization protocols, adversarial robustness analysis|
 
 -----
 
 ## Provenance of This Document
 
-Developed in a single session (Claude, March 2026) as the direct continuation of the Human Sovereign Collaboration Framework (HSCF v0.1). The six tells are drawn from:
+Developed across two sessions (Claude, March 2026). The six original tells are drawn from:
 
 - Taller Shell Trilogy case study (dimensional-authorship/case-study-taller-shell/)
 - Tell Engine v2.1 findings and the “over-cleanliness” finding
@@ -229,7 +255,7 @@ Developed in a single session (Claude, March 2026) as the direct continuation of
 - Addendum B identity integrity protocol
 - Frozen Kernel failure mode taxonomy (productive incoherence maps to anti-Sycophantic Drift)
 
-The simulation problem section is the document’s sharpest edge and most important honesty: the permanent tells are permanent not because AI cannot fake the outputs, but because it cannot fake the evidential chain. That distinction is what makes them architectural rather than stylometric.
+Tell 7 (Register Contamination) was added in v0.2 from the Tell Engine empirical run against the full Taller Shell manuscript — specifically the scoring gap between the pure fiction (10–18) and the meta-fiction/appendices (55–75). The gap surfaced the AI exoskeleton problem as a distinct tell that the original six had not anticipated. Tell 7 is the only tell in this document that was empirically discovered rather than theorized in advance.
 
 -----
 
