@@ -16,6 +16,10 @@ The Dimensional Voice Stamp adds a layer the documentation alone cannot provide:
 
 The asymmetry is the mechanism. Any verifier can confirm the skeleton. Only the author can confirm the soul.
 
+**The stamp’s claim, stated precisely:** The author has attested this artifact as consistent with their documented voice signature, and this attestation can be publicly verified without exposing the private calibration basis. The stamp does not prove human authorship from text alone. It makes a narrower claim: this version of the work was signed by the claimed author as consistent with their documented voice profile, under the referenced public profile version.
+
+**Architectural note on delegated attestation:** In some contexts — editorial relationships, estates, institutional co-authorship — a trusted reviewer, executor, or co-attester may legitimately hold or co-attest against the private layer. v0.1 does not implement delegated attestation, but the architecture should remain open to it. The private layer is the author’s by default, not by necessity.
+
 -----
 
 ## The Public / Private Split
@@ -31,7 +35,14 @@ Released once, versioned, cryptographically signed. Contains:
 - The version hash of the public PVG at time of signing
 - The author’s public key or Trust Chain root identifier
 
-**What this enables:** Any verifier can check whether a piece of text is broadly consistent with the documented processors. It is a structural compatibility check — does this work operate in the same register, the same metaphor ecology, the same emotional geography as the documented voice?
+**What this enables:** A verifier with no prior relationship to the author can take the following concrete actions:
+
+- Inspect the public processor definitions and confirm the work is being presented under a declared profile version
+- Compare the artifact against the public calibration paragraph for register and ecological consistency
+- Validate the cryptographic signature / manifest to confirm the stamp was issued by the claimed author
+- Confirm the PVG version hash matches the published record
+
+This is a structural compatibility check — does this work operate in the same register, the same metaphor ecology, the same emotional geography as the documented voice? It is not a claim that the work could only have been produced by this author. It is a claim that the author has attested it as consistent with their documented profile.
 
 **What this does not enable:** Passing the soul layer. The public calibration paragraph is illustrative, not generative. A model trained on it can approximate the skeleton. It cannot consistently pass the full private verification without the author’s judgment.
 
@@ -134,23 +145,24 @@ This is not a competition. It is a measurement instrument. The goal is to establ
 
 1. **Key infrastructure:** What is the minimum viable signing infrastructure for authors without technical backgrounds? The stamp must be capturable on a phone. A cryptographic signing workflow that requires a developer defeats the accessibility requirement.
    
-   **Answered (v0.2 candidate):** C2PA 2.3 (released December 2025) added explicit support for unstructured text documents via Section A.7 (“Embedding Manifests into Unstructured Text”). The standard defines a signed manifest that travels inside PDFs, Word docs, plain text sidecars, or JSON. Conforming tools from Adobe, Microsoft, and mobile-first implementations now expose one-tap “Sign with Content Credentials” flows on iOS/Android. The stamp token maps directly into a C2PA manifest as a custom assertion. No developer required at the signing step.
+   **Answered (v0.2 candidate):** C2PA 2.3 (released December 2025) added support for unstructured text documents via Section A.7 (“Embedding Manifests into Unstructured Text”), making it a strong candidate substrate for transport, signing, and verification. The standard supports extensible custom assertions — which is what the public PVG hash, fidelity score, and Trust Chain record constitute. Conforming tools are emerging across mobile and desktop platforms, reducing implementation burden significantly. Implementation usability and institutional acceptance remain open questions that v0.2 should address through direct testing against available tooling. C2PA is the leading candidate, not a solved problem.
 1. **Version migration:** When the author’s voice evolves significantly, how does a v1.0 stamp relate to v2.0 certification? Is there a continuity attestation or are they treated as distinct voice signatures?
    
    **Answered (v0.2 candidate):** Treat versions as a lineage problem, not an identity problem. Each new PVG version gets its own public skeleton plus a signed continuity attestation: “v1.0 soul is a proper subset of v2.0 soul.” The stamp token includes the active PVG version and a hash chain back to the Frozen Kernel root. Verifiers see the active version and the lineage simultaneously. No retroactive rewriting of prior stamps — they remain valid against the version they were issued under.
 1. **Institutional recognition:** The stamp is currently a personal provenance record. What would make it legible to publishers, courts, or platforms as a meaningful authorship claim? The trust-model-mapping work is the foundation for this question.
    
-   **Answered (v0.2 candidate):** Map the Dimensional Voice Stamp into C2PA manifests as a custom assertion. C2PA already supports W3C Verifiable Credentials for authorship and allows arbitrary signed assertions — which is exactly what the public PVG hash, fidelity score, and Trust Chain record constitute. The C2PA Conformance Program (live since mid-2025) maintains a public registry. Publishers, courts, and platforms that already accept Content Credentials treat conforming implementations as first-class provenance without requiring new policy. Institutional recognition is not a future negotiation — it is an existing infrastructure waiting for a conforming implementation.
+   **Answered (v0.2 candidate):** C2PA manifests support extensible custom assertions and W3C Verifiable Credentials for authorship, making them a promising target for encoding the public PVG hash, fidelity score, and Trust Chain record as a structured provenance claim. The C2PA Conformance Program (live since mid-2025) maintains a public registry. Publishers and platforms already accepting Content Credentials represent a plausible adoption path without requiring new technical standards — but institutional recognition is still a governance and policy question, not just a technical one. C2PA provides compatible infrastructure; it does not guarantee legal or platform-level acceptance for this specific authorship construct. That gap requires direct engagement with adopting institutions and is a v0.2 priority.
 1. **Scorer limitations disclosure:** The public fidelity scorer must ship with explicit documentation of what it cannot detect, to prevent it from being treated as the certification layer by downstream users who don’t read the spec.
 
 -----
 
 ## Version History
 
-|Version|Date      |Notes                                                                                                                                                                                                                                                                                                  |
-|-------|----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|0.1    |March 2026|Initial specification. Architecture derived from Grok adversarial review + HSCF ecosystem integration. Public/private split and Taller Shell Challenge are the primary new contributions. Scorer relegated to appendix with explicit limitations.                                                      |
-|0.1.1  |March 2026|Open Questions 1–3 answered via external adversarial review (Grok). C2PA 2.3 identified as the signing infrastructure that closes the phone-capturable and institutional recognition questions simultaneously. Continuity attestation model added for version migration. No structural changes to spec.|
+|Version|Date      |Notes                                                                                                                                                                                                                                                                                                                                                                                |
+|-------|----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|0.1    |March 2026|Initial specification. Architecture derived from Grok adversarial review + HSCF ecosystem integration. Public/private split and Taller Shell Challenge are the primary new contributions. Scorer relegated to appendix with explicit limitations.                                                                                                                                    |
+|0.1.1  |March 2026|Open Questions 1–3 answered via external adversarial review (Grok). C2PA 2.3 identified as the signing infrastructure that closes the phone-capturable and institutional recognition questions simultaneously. Continuity attestation model added for version migration. No structural changes to spec.                                                                              |
+|0.1.2  |March 2026|Five edits via ChatGPT + Gemini adversarial review: (1) top-line claim narrowed to voice-consistency attestation; (2) delegated attestation architectural note added; (3) concrete verifier action list replaces vague “broadly consistent” language; (4) C2PA claims softened to candidate infrastructure; (5) Characteristic Anomalies development note added to Appendix A scorer.|
 
 -----
 
@@ -173,6 +185,8 @@ This is not a competition. It is a measurement instrument. The goal is to establ
 *Quiet Action Preference* — Ratio of action rendered through consequence and environment versus explicit statement. Flags text with explicit action rendering patterns inconsistent with the documented preference.
 
 **Critical limitation:** All five metrics operate on surface features that are subject to adversarial optimization. A model specifically trained to pass this scorer will eventually succeed. The scorer’s value is in catching unintentional drift — AI default tendencies bleeding into voice — not in providing adversarial-robust certification. The soul layer is the human judgment call that follows.
+
+**v0.2 development note — Characteristic Anomalies:** The five metrics above measure consistency against a mean. AI is effective at matching means. A more adversarially robust scorer would measure *outliers* — the characteristic anomalies that define a voice rather than its average. Human voice is defined by its productive errors: the sentence that runs too long, the metaphor that is slightly broken but emotionally precise, the structural choice that violates craft convention for reasons only the author could explain. AI smooths these out. The Rhythm Signature metric in particular should be extended in v0.2 to detect anomaly distribution, not just average cadence. This maps directly onto Tell 4 (productive incoherence) at the metric level — the scorer should look for preserved contradiction, not resolved consistency.
 
 -----
 
