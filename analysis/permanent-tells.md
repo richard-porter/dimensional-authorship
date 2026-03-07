@@ -200,6 +200,8 @@ Together, they make the simulation traceable — not by detecting the AI’s out
 
 **It does not claim detectors will use this framework.** Automated stylometric detectors will continue to operate on surface features. The permanent tells framework is not for detectors. It is for provenance documentation — the record that travels with the work for use when output-level detection has failed.
 
+**It does not claim the tells are detection features.** A system that detects permanent tells as output features will be defeated by a system optimized to generate those features — a Human-ness GAN, trained adversarially to produce biographical-seeming contamination, incoherence patterns, and register boundaries on demand. That attack works against feature detection. It does not work against provenance validation. The tells are not claimed because they look a certain way. They are claimed because their *origin* is traceable to a specific person at a specific time. The H-GAN produces features without provenance. The HSCF documents provenance independent of features. These are different claims and only one is adversarially robust.
+
 **It does not claim this is complete.** The seven tells documented here derive from one case study (the Taller Shell trilogy), one ecosystem of research, and one researcher’s observation. The catalog will expand as more empirical cases are documented. The tells most likely to be refined or replaced by future research are Tell 4 (productive incoherence) and Tell 5 (temporally-anchored direction change), which are the hardest to operationalize. Tell 7 (Register Contamination) is the newest and least tested — it was surfaced by the Tell Engine empirical run, not theorized in advance.
 
 -----
