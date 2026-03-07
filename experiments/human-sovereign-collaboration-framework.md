@@ -143,6 +143,7 @@ Certification of the five properties operates through three layers of evidence. 
 - **Redirect events:** The human changed direction mid-session, introducing something the AI had not proposed
 - **Constraint declarations:** The human imposed a rule for reasons outside the text (“I’m not including X because of Y”)
 - **Session gaps:** Out-of-session continuation with documented direction change — the work evolved between sessions in ways that reflect biological time passing
+- **Revision delta:** The meaningful difference between first draft and final — what the human transformed, not just approved. AI typically produces a high-quality jump to result; human governance produces a traceable path of transformation. The delta is harder to fabricate than a log of acceptances, because it requires showing what changed and why.
 
 **Process Provenance note:** As models train on increasing volumes of human-AI collaborative data, output-based tells compress — the artifact becomes less distinguishable from synthetic production regardless of how it was made. The process record is not subject to this compression. Time spent, revisions made, negative space explored, and decisions logged are not model artifacts; they are human artifacts. The durable provenance signal is in the decision record, not the text. This is why Layer 1 is the foundational layer and why its compression resistance increases as output-based detection degrades.
 
