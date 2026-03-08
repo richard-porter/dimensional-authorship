@@ -232,6 +232,17 @@ With:
 1. **Genre baseline source:** The anomaly frequency component requires a genre baseline. What corpus establishes the baseline for literary fiction in the marine noir genre? This is a practical implementation question with no obvious off-the-shelf answer.
 1. **Semantic density measurement:** The density anomaly type is the least operationalized of the four. Compression and expansion are real phenomena but measuring them reliably from surface features alone is harder than length or punctuation anomalies. The v0.2 implementation should treat density anomalies as lower-confidence than the other three types.
 1. **Integration with Taller Shell Challenge:** The Taller Shell Challenge (Voice Stamp v0.1) tests the gap between public scorer pass rate and private soul review pass rate. The rebuilt scorer should be the public instrument in that challenge — it is more adversarially robust than the mean-cadence approach and will produce a more meaningful gap measurement.
+1. **Voice evolution across time:** The Taller Shell corpus spans a compressed production period. Does the anomaly type signature change when the authenticated corpus spans years rather than months? Older passages may reflect an earlier voice version — authenticated but not calibrated to the current PVG. The placement component is most vulnerable to this: where the author deploys anomalies relative to emotional content may shift as the author’s relationship to charged material changes.
+1. **Temporal variance shape:** The rebuilt scorer measures anomaly distribution per passage — a static snapshot. A companion analysis is needed that graphs register distance from the author’s mean across the full work and examines the shape of the change curve over time. Real human register variance is non-periodic, locally reversing, and correlates with content rather than word count — the graph is jagged with local reversals. Simulated register change produces a step function or smooth sigmoid: a clean before/after transition or a regularly periodic oscillation. This is the written equivalent of scheduled spontaneity — AI mimicking registry change produces systematic variance where human registry change produces organic variance. This temporal variance analysis is a separate instrument from the per-passage scorer and should be specified as a standalone tool in `dimensional-authorship/experiments/`. It is a prerequisite for the Prosodic Envelope as Governance Layer alongside the scorer rebuild and the Minimum Viable Corpus Protocol empirical outputs.
+
+-----
+
+## Version History
+
+|Version|Date      |Notes                                                                                                                                                                                                              |
+|-------|----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|0.1    |March 2026|Initial specification. Derived from Voice Stamp v0.1 Appendix A development note and vocal voice preservation formant analogy. Three-component architecture established. Mean-cadence approach formally superseded.|
+|0.1.1  |March 2026|Open question 6 added: temporal variance shape analysis as a companion instrument. Scheduled spontaneity as a simulated registry change signature. Prosodic Envelope prerequisite list updated to three items.     |
 
 -----
 
