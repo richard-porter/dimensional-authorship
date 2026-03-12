@@ -8,6 +8,8 @@ Supporting materials for the dimensional-authorship case study.
   the v10.4 incident, ChatGPT self-audit, the 27,000x velocity multiplier, and 
   evidence standards
 
+- [https://github.com/richard-porter/dimensional-authorship/blob/main/appendices/epistemic-standards.md]
+
 ## Planned
 
 - Narrative artifact
