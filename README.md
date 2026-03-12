@@ -40,10 +40,9 @@ This case study includes:
 It is documentation.
 
 -----
+## What's Worth Finding
 
-## What’s Worth Finding
-
-The front door understates what’s here. These documents are worth reading directly:
+The front door understates what's here. These documents are worth reading directly:
 
 **Origin and case study**
 
@@ -52,14 +51,22 @@ The front door understates what’s here. These documents are worth reading dire
 
 **Analysis**
 
+- [analysis/research-summary.md](./analysis/research-summary.md) — start here: what was learned, what failed, what was discovered (most accessible entry point)
 - [analysis/thesis.md](./analysis/thesis.md) — the central argument
 - [analysis/core-architecture.md](./analysis/core-architecture.md) — structural model
 - [analysis/glossary-of-patterns.md](./analysis/glossary-of-patterns.md) — pattern vocabulary
+- [analysis/from-detection-to-sovereignty.md](./analysis/from-detection-to-sovereignty.md) — why detection fails and what replaces it
+- [analysis/voice-preservation-framework.md](./analysis/voice-preservation-framework.md) — how to maintain authorial voice through AI collaboration
 
 **Experiments**
 
 - [experiments/behavioral-differentiation-disc.md](./experiments/behavioral-differentiation-disc.md) — Silicon Symphony: five-model DISC behavioral study
 - [experiments/voluntary-compliance-boundary.md](./experiments/voluntary-compliance-boundary.md) — the triple refusal event; source material for [Frozen Kernel Addendum A](https://github.com/richard-porter/frozen-kernel/blob/main/addendum-a-refusal-protocol.md)
+
+**Appendices**
+
+- [appendices/evidence-references.md](./appendices/evidence-references.md) — primary empirical observations: v10.4 incident, ChatGPT self-audit, 27,000x velocity multiplier
+- [appendices/epistemic-standards.md](./appendices/epistemic-standards.md) — confidence grading system and academic search term taxonomy
 
 -----
 
