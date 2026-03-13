@@ -73,6 +73,8 @@ Responding to error with additional structure rather than removal.
 **Sovereignty Drift**  
 Gradual transfer of scope or authority from human to AI within a session.
 
+*See also:* Sovereignty Washing (`frozen-kernel/diagnostic-vocabulary.md`) — a distinct but related pattern. Sovereignty Drift is the process failure: scope transfers gradually from human to AI. Sovereignty Washing is the presentation failure: governance vocabulary substitutes for governance architecture. Drift can occur without any Washing; Washing can occur without any Drift. Both can occur together.
+
 -----
 
 **Front-Load Bias**  
@@ -113,5 +115,6 @@ Explicit termination treated as a valid outcome.
 
 -----
 
-*Richard Porter | March 2026 | v1.1*  
-*v1.1 changes: FFS trigger differentiation (genre-driven) added. Upsell Trap trigger differentiation (identity-driven) added. Weaponized Legibility and Sequential Anchoring Bias Frozen Kernel cross-references added (Principles 11 and 12). Front-Load Bias added as new entry with Sequential Anchoring Bias relationship note.*
+*Richard Porter | March 2026 | v1.2*  
+*v1.1 changes: FFS trigger differentiation (genre-driven) added. Upsell Trap trigger differentiation (identity-driven) added. Weaponized Legibility and Sequential Anchoring Bias Frozen Kernel cross-references added (Principles 11 and 12). Front-Load Bias added as new entry with Sequential Anchoring Bias relationship note.*  
+*v1.2 changes: Sovereignty Drift cross-reference to Sovereignty Washing added. Drift vs. Washing distinction clarified.*
