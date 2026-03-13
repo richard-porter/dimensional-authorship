@@ -278,6 +278,9 @@ In extended collaborative relationships, the voices begin moving toward each oth
 |**DG4-C**|Advanced — biographical contamination displacement; Tell 1 pointing at wrong author                |Cross-domain connections traceable to collaborator biography               |
 |**DG4-X**|Critical — voice averaging; primary author’s governing signature no longer reliably distinguishable|Private soul review cannot confidently attribute sections to primary author|
 
+**Proxy attestation gap note:**
+Collaborative contamination raises an attestation question the Voice Stamp v0.1 architecture does not yet answer: when multiple governing intelligences have shaped a work, who holds the private soul layer? If the primary author and a co-author have both contributed to the governing decisions, a single-author private soul review may not be sufficient for full attestation. The proxy attestation open question (Voice Stamp v0.1, Open Question 5) is the direct downstream consequence of DG4-B and above — at DG4-B severity, the work may require co-attestation rather than solo primary author review. This interaction is a v0.2 specification priority.
+
 -----
 
 ### Ecosystem Connections
