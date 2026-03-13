@@ -271,6 +271,11 @@ If confirmed signals cluster in particular passage types (charged passages, tran
 **Step 5 — Log calibration update:**
 Record all prompt and selection changes with rationale before running the next corpus level. The calibration history is part of the empirical record — it shows how the discrimination stack improved across cycles and what the final MVC threshold was tested against.
 
+### Vocal Banking Analog
+Vocal voice preservation research has established empirical corpus thresholds through direct testing: systems such as ModelTalker, VocaliD, and the Motor Neurone Disease Association’s voice banking programs converge on approximately 400–800 phrase recordings as the minimum viable corpus for a reliable synthetic voice clone, with higher-quality systems requiring toward the upper end of that range. Below 400 phrases, the system cannot reliably generalize the speaker’s characteristic acoustic patterns across novel phoneme combinations. Above 800 phrases, additional recordings produce diminishing returns on synthesis quality for most speakers.
+The written analog maps as follows: at an average of approximately 12 words per phrase unit, 400–800 phrases corresponds to roughly 5,000–10,000 words — the L3–L4 range in the trial protocol above. This suggests a working hypothesis for where the MVC threshold is likely to land before testing begins: a highly distinctive literary voice with a strong anomaly signature may be establishable at L3 (5,000 words); a less distinctive or more genre-conventional voice may require L4 (10,000 words) or above.
+This is an analog, not a direct transfer. Audio phrase recording captures acoustic parameters (formants, prosody, timing) that have no written equivalent. The written MVC threshold depends on anomaly density rather than phoneme coverage — how many characteristic anomaly instances per passage, rather than how many phoneme types per recording. The vocal banking literature provides a calibration intuition, not a guaranteed range. The protocol’s empirical test is the only reliable way to establish the written threshold for a specific author.
+
 -----
 
 ## Expected Findings and Interpretation
