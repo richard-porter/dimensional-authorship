@@ -208,15 +208,15 @@ Together, they make the simulation traceable — not by detecting the AI’s out
 
 ## Relationship to Existing Ecosystem
 
-|Tell                                   |Ecosystem connection                          |Where it shows up                     |
-|---------------------------------------|----------------------------------------------|--------------------------------------|
-|Uninstructed cross-domain contamination|Dimensional Authorship case study             |HSCF Layer 2, Origin Evidence         |
-|Path-dependence artifacts              |ROSETTA voice preservation                    |HSCF Property 4, Thematic Control     |
-|Authentic rejection events             |BDD Ledger — negative space                   |HSCF Layer 1, Process Evidence        |
-|Productive incoherence                 |Addendum B identity integrity                 |HSCF Property 5, Residue              |
-|Temporally-anchored direction change   |Quorum Time / Aegis Protocol                  |HSCF Layer 1, session gaps            |
-|Biographical constraint                |Sovereignty Paradox — human center of gravity |HSCF Property 1 and Layer 2           |
-|Register Contamination boundary        |Tell Engine v2.1 empirical data — Taller Shell|HSCF v0.2 Gap 1, Consent Scope Level 3|
+|Tell                                   |Ecosystem connection                                                                                                                              |Where it shows up                     |
+|---------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------|
+|Uninstructed cross-domain contamination|Dimensional Authorship case study                                                                                                                 |HSCF Layer 2, Origin Evidence         |
+|Path-dependence artifacts              |ROSETTA voice preservation                                                                                                                        |HSCF Property 4, Thematic Control     |
+|Authentic rejection events             |BDD Ledger — negative space                                                                                                                       |HSCF Layer 1, Process Evidence        |
+|Productive incoherence                 |Addendum B identity integrity                                                                                                                     |HSCF Property 5, Residue              |
+|Temporally-anchored direction change   |Quorum Time / Aegis Protocol                                                                                                                      |HSCF Layer 1, session gaps            |
+|Biographical constraint                |Sovereignty Paradox — human center of gravity                                                                                                     |HSCF Property 1 and Layer 2           |
+|Register Contamination boundary        |Tell Engine v2.1 empirical data — Taller Shell; Translation Layer Model (constraint architecture displacing pattern preservation is the mechanism)|HSCF v0.2 Gap 1, Consent Scope Level 3|
 
 -----
 
