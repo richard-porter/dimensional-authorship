@@ -1,6 +1,6 @@
 # Permanent Tells: Structural Properties of Human Authorship That AI Cannot Patch
 
-**Version:** 0.2 — Tell 7 added from Tell Engine empirical data  
+**Version:** 0.3 — Items 113 and 114: TCP §3.2 and HSL §3 cross-references added  
 **Date:** March 2026  
 **Author:** Richard Porter  
 **Status:** Observation and argument — empirical validation needed  
@@ -99,6 +99,8 @@ AI generates candidates. Humans select. The selection is the authorship. But rej
 **What AI produces instead:** Without a human governor, there are no authentic rejection events. The AI’s selection criteria are internal to the generation process. What survives does so because it satisfied the model’s optimization, not because a person with stakes in the work decided it was true.
 
 **Why it’s permanent:** Authentic rejection requires a governing intelligence with preferences that exist *outside the text*. Those preferences cannot be reconstructed from the outputs, because rejections don’t leave artifacts in the output — they leave artifacts in the *absence* of certain options. The negative space is the tell.
+
+**TCP connection:** The chain-of-custody logic in the Trust Chain Protocol (§3.2) captures what was approved and passed forward. Authentic Rejection Events are the inverse: the negative-space provenance record of what the governing intelligence encountered and declined. A complete chain-of-custody includes both the accepted chain and the refusal record. Neither is sufficient alone — the pattern of refusals is often more probative of governing intention than the pattern of approvals, because refusals are where the human’s values operated against the model’s optimization. See [Trust Chain Protocol §3.2](https://github.com/richard-porter/trust-chain-protocol).
 
 -----
 
@@ -208,15 +210,15 @@ Together, they make the simulation traceable — not by detecting the AI’s out
 
 ## Relationship to Existing Ecosystem
 
-|Tell                                   |Ecosystem connection                                                                                                                              |Where it shows up                     |
-|---------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------|
-|Uninstructed cross-domain contamination|Dimensional Authorship case study                                                                                                                 |HSCF Layer 2, Origin Evidence         |
-|Path-dependence artifacts              |ROSETTA voice preservation                                                                                                                        |HSCF Property 4, Thematic Control     |
-|Authentic rejection events             |BDD Ledger — negative space                                                                                                                       |HSCF Layer 1, Process Evidence        |
-|Productive incoherence                 |Addendum B identity integrity                                                                                                                     |HSCF Property 5, Residue              |
-|Temporally-anchored direction change   |Quorum Time / Aegis Protocol                                                                                                                      |HSCF Layer 1, session gaps            |
-|Biographical constraint                |Sovereignty Paradox — human center of gravity                                                                                                     |HSCF Property 1 and Layer 2           |
-|Register Contamination boundary        |Tell Engine v2.1 empirical data — Taller Shell; Translation Layer Model (constraint architecture displacing pattern preservation is the mechanism)|HSCF v0.2 Gap 1, Consent Scope Level 3|
+|Tell                                   |Ecosystem connection                                                                                                                                                                  |Where it shows up                     |
+|---------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------|
+|Uninstructed cross-domain contamination|Dimensional Authorship case study                                                                                                                                                     |HSCF Layer 2, Origin Evidence         |
+|Path-dependence artifacts              |ROSETTA voice preservation                                                                                                                                                            |HSCF Property 4, Thematic Control     |
+|Authentic rejection events             |BDD Ledger — negative space; Trust Chain Protocol §3.2 — rejection events are negative-space chain-of-custody: what the human declined is as evidentially significant as what survived|HSCF Layer 1, Process Evidence        |
+|Productive incoherence                 |Addendum B identity integrity                                                                                                                                                         |HSCF Property 5, Residue              |
+|Temporally-anchored direction change   |Quorum Time / Aegis Protocol; Healthcare Safety Ledger §3 (Data Provenance and Currency Surfacing) — both concern what changes in the interval between documented moments             |HSCF Layer 1, session gaps            |
+|Biographical constraint                |Sovereignty Paradox — human center of gravity                                                                                                                                         |HSCF Property 1 and Layer 2           |
+|Register Contamination boundary        |Tell Engine v2.1 empirical data — Taller Shell; Translation Layer Model (constraint architecture displacing pattern preservation is the mechanism)                                    |HSCF v0.2 Gap 1, Consent Scope Level 3|
 
 -----
 
@@ -225,6 +227,8 @@ Together, they make the simulation traceable — not by detecting the AI’s out
 Running the Negative Space Mapper against this analysis:
 
 **CLOSED (v0.2):** Register Contamination — surfaced by Tell Engine empirical data, added as Tell 7.
+
+**CLOSED (v0.3):** TCP cross-reference (Tell 3); HSL §3 cross-reference (Tell 5).
 
 **OVERLOOKED:** Empirical validation. The seven tells are argued, not tested. The Taller Shell trilogy is one case. A durable claim requires multiple cases across different collaboration modalities, authors, and domains. This is the primary gap.
 
@@ -238,11 +242,12 @@ Running the Negative Space Mapper against this analysis:
 
 ## Version History
 
-|Version|Date      |Status                                                                                                  |
-|-------|----------|--------------------------------------------------------------------------------------------------------|
-|0.1    |March 2026|Initial analysis. Six tells argued, not yet empirically validated.                                      |
-|0.2    |March 2026|Tell 7 (Register Contamination) added from Tell Engine empirical data. Negative space updated.          |
-|1.0    |TBD       |Requires: multi-case empirical validation, operationalization protocols, adversarial robustness analysis|
+|Version|Date      |Status                                                                                                                      |
+|-------|----------|----------------------------------------------------------------------------------------------------------------------------|
+|0.1    |March 2026|Initial analysis. Six tells argued, not yet empirically validated.                                                          |
+|0.2    |March 2026|Tell 7 (Register Contamination) added from Tell Engine empirical data. Negative space updated.                              |
+|0.3    |March 2026|TCP §3.2 cross-reference added to Tell 3 (ecosystem table + body). HSL §3 cross-reference added to Tell 5 (ecosystem table).|
+|1.0    |TBD       |Requires: multi-case empirical validation, operationalization protocols, adversarial robustness analysis.                   |
 
 -----
 
@@ -258,6 +263,8 @@ Developed across two sessions (Claude, March 2026). The six original tells are d
 - Frozen Kernel failure mode taxonomy (productive incoherence maps to anti-Sycophantic Drift)
 
 Tell 7 (Register Contamination) was added in v0.2 from the Tell Engine empirical run against the full Taller Shell manuscript — specifically the scoring gap between the pure fiction (10–18) and the meta-fiction/appendices (55–75). The gap surfaced the AI exoskeleton problem as a distinct tell that the original six had not anticipated. Tell 7 is the only tell in this document that was empirically discovered rather than theorized in advance.
+
+v0.3 cross-references added from MAR Items 113 (TCP §3.2) and 114 (HSL §3) during March 2026 cleanup session.
 
 -----
 
