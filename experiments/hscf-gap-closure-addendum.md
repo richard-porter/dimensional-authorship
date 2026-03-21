@@ -95,6 +95,10 @@ The adversarial use case runs in the opposite direction: someone has challenged 
 
 These are different problems from proactive certification, and they require a different instrument.
 
+### Empirical anchor — Shy Girl / Hachette (March 19, 2026)
+
+The first commercially consequential instance of Gap 2 in production occurred in March 2026, when Hachette pulled Shy Girl — a novel by Georgie Shelley Ballard — after Pangram detection flagged 78% of the manuscript as AI-generated. Ballard’s account was that her editor had introduced AI-generated content without her knowledge or consent. The challenge was externally imposed: a publisher acting on detector output, not an author initiating certification. The burden of proof ran in reverse — Ballard was required to defend the work’s human origin under adversarial conditions, without a process record, against a detection finding she disputed. The Society of Authors responded by launching a human-authored certification sticker scheme — an institutional recognition that the adversarial use case is now mainstream, and that proactive certification is preferable to reactive defense. This case makes concrete what Gap 2 describes: the HSCF’s Adversarial Response Protocol exists precisely for the situation Ballard faced. An author who had maintained a process log, documented rejection events, and established a ROSETTA voice baseline would have had a structured defense available. Ballard had none of those. The protocol gap is not theoretical.
+
 ### The Adversarial Response Protocol
 
 When a work is challenged on human origin grounds, the response has three phases — in order, without skipping:
