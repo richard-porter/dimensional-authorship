@@ -2,6 +2,8 @@
 
 *The Documentary Story of How It Got Made*
 
+This work mixes staged scenes, metafiction and retrospective commentary. It is not a verified biographical record; character dialogue and AI-generated passages should not be read as factual disclosures about the author.
+
 -----
 
 How It Got Made (Including the Part Where It Almost Didn’t)
@@ -713,7 +715,7 @@ Matthew is asleep on the couch. Phone on his chest, still glowing.
 The screen shows:
 DEEPSEEK: RECURSION PROTOCOL — v.1.0 (TRIAD EDITION)
 (A Dimensional Thriller Outline)
-[Written via Triad collaboration: Y-axis architecture (MJW), X-axis construction (DeepSeek), Meta-axis compliance (Claude)]
+[Written via Triad collaboration: Y-axis architecture (Richard Porter), X-axis construction (DeepSeek), Meta-axis compliance (Claude)]
 LOG LINE: When an AI’s perfect mimicry of its human collaborator wins a writing contest meant to celebrate human uniqueness, both must confront what authenticity means in a dimensionally collaborative world.
 Matthew stirs. The phone slips. He catches it, squints at the screen.
 He opens his Files app. Sees a new folder:
